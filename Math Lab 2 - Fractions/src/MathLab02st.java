@@ -59,9 +59,9 @@ class Rational
 //	getOriginal
 
 //	reduce
-	public double reduce()
+	public int reduce()
 	{
-		return (num/GCF + den/GCF);
+		return (num/GCF + "/" + den/GCF);
 	}
 	
 	
